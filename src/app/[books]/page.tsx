@@ -4,7 +4,6 @@ async function page(props:any) {
     let url=await fetch (`https://jsonplaceholder.typicode.com/todos/${props.params.books}`)
     let responce=await url.json()
     console.log(responce)
-    console.log(props)
   return (
    <div>
     <h1 className='text-2xl' >

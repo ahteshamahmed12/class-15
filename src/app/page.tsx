@@ -8,7 +8,8 @@ async function page() {
     <div>
       <div>
       {  
-       result.map((book:any,index)=>(
+       result.map((book:any,index:any)=>(
+        
         <div className='text-2xl'>
           key={index}
           <Link href={`${book.id}`}>
